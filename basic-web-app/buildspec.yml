@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+
+build:
+commands:
+  - dotnet restore deployment-app-csharp/deployment-app-csharp.csproj
+  - dotnet build deployment-app-csharp/deployment-app-csharp.csproj
+  - dotnet publish deployment-app-csharp/deployment-app-csharp.csproj -o site
+ artifacts:
+  files:
+    - deployment-app-csharp/site/**/*
+    - deployment-app-csharp/aws-windows-deployment-manifest.json

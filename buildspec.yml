@@ -9,5 +9,5 @@ commands:
   - dotnet publish ./basic-web-app/basic-web-app.csproj -o site
  artifacts:
   files:
-    - .basic-web-app/site/**/*
+    - ./basic-web-app/site/**/*
     - deployment-app-csharp/aws-windows-deployment-manifest.json

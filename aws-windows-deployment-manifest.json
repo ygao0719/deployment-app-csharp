@@ -5,7 +5,7 @@
       "aspNetCoreWeb": [{
               "name": "deployment-app-csharp",
               "parameters": {
-                  "appBundle": "./site",
+                  "appBundle": "./basic-web-app/site",
                   "iisPath": "/",
                   "iisWebSite": "Default Web Site"
               }

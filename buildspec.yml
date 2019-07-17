@@ -7,7 +7,7 @@ commands:
   - dotnet restore ./basic-web-app/basic-web-app.csproj
   - dotnet build ./basic-web-app/basic-web-app.csproj
   - dotnet publish ./basic-web-app/basic-web-app.csproj -o site
-  artifacts:
-    files:
-      - ./basic-web-app/site/**/*
-      - deployment-app-csharp/aws-windows-deployment-manifest.json
+ artifacts:
+  files:
+    - ./basic-web-app/site/**/*
+    - deployment-app-csharp/aws-windows-deployment-manifest.json

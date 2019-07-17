@@ -4,9 +4,9 @@ phases:
 
 build:
 commands:
-  - dotnet restore ./basic-web-app/basic-web-app.csproj
-  - dotnet build ./basic-web-app/basic-web-app.csproj
-  - dotnet publish ./basic-web-app/basic-web-app.csproj -o site
+  - dotnet restore
+  - dotnet build
+  - dotnet publish
  artifacts:
   files:
     - ./basic-web-app/site/**/*

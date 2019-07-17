@@ -1,6 +1,6 @@
 # Code Pipeline for C#
 ## Files for the C# Application folder
-1. Add buildspec.yml file. Make sure the YML file is validated by using www.yamllint.com
+1. Add buildspec.yml file. Make sure the YML file is validated by using www.yamllint.com. SPACE MATTERS.
 ```
 version: 0.2
 

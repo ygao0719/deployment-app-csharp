@@ -13,6 +13,9 @@
 - Run the tests
   - `dotnet test`
 
+## Deployed Link
+[link](http://deploycsharpappenv-env.wmp3upeg2i.us-west-2.elasticbeanstalk.com/)
+
 ## Code Build
 + Add Code Build -> 'Create new Build Stage'
     + Choose windows environment

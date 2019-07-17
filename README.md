@@ -34,7 +34,7 @@ artifacts:
   }
 }
 ```
-To see more details, check out: https://github.com/nguyenvinh2/deployment-app-csharp
+Thanks For Jorie's repository. To see more details, check out: https://github.com/nguyenvinh2/deployment-app-csharp
 
 ## Setting up pipeline in AWS:
 1. Click create pipeline in CodePipeline
